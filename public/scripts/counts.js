@@ -19,7 +19,7 @@ function count() {
     let analyticsData = {
         id: 8,
         count: 1,
-        domain: dom[2],
+        domain: dominio,
         date: `última vista: ${formatoConZona}`,
         clicks: 0,
     };
