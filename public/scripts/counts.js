@@ -11,7 +11,8 @@ const opciones = {
   const formatoConZona = new Intl.DateTimeFormat("es-PA", opciones).format(ahora);
   
 const url = `https://visits-christian-guardias-projects.vercel.app/count`;    
-const dominio = window.location.pathname;
+// const dominio = window.location.pathname;
+const dominio = 'venta-terreno.lovingmypets.pro';
 
 let dom = dominio.split('/');
 
