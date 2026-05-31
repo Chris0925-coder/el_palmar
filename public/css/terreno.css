@@ -172,7 +172,7 @@ body {
 }
 
 .texto {
-    color: var(--gray);
+    color: var(--gray70);
     max-width: 75ch;
     margin: 0 auto;
     margin-block: 1lh;
