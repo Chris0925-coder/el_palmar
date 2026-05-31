@@ -237,8 +237,18 @@ footer {
 @media (width < 769px) {
     .info-content {
         margin: 40px 0;
+        padding: 20px;
+        text-align: justify;
+          /*text-wrap: balance;*/
+          hyphenate-limit-chars: 4;
+          hyphens: auto;
     }
     .info {
         width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 2em;
     }
 }
