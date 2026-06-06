@@ -205,16 +205,24 @@ h1 {
 }
 
 .texto {
+    display: flex;
     color: var(--gray-dark);
-    max-width: 75ch;
-    /*margin: 0 auto;*/
-    margin-block: 1lh;
-    line-height: 1.4;
-    margin-bottom: 0;
-    /*text-align: right;*/
-    margin-left: auto;
-    padding: 20px;
-    text-align: justify;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 40px auto;
+    gap: 1em;
+    p {
+        max-width: 75ch;
+        /*margin: 0 auto;*/
+        margin-block: 1lh;
+        line-height: 1.4;
+        margin-bottom: 0;
+        /*text-align: right;*/
+        /*margin-left: auto;*/
+        padding: 20px;
+        text-align: justify;
+    }
+
 }
 
 footer {
@@ -284,6 +292,10 @@ footer {
     }
     .info {
         width: 100%;
+    }
+
+    .texto {
+        flex-direction: column;
     }
 
     footer {
