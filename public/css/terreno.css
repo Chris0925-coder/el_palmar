@@ -100,12 +100,13 @@ h2 {
 .slider-container {
     flex-grow: 2;
     position: relative;
-    width: 350px;
-    height: 500px;
+    /*min-width: 350px;*/
+    height: 400px;
+    max-width: 600px;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    background: #2b2b2b99;
+    background: #2b2b2b29;
     justify-self: center;
     margin: 0 auto;
 }
@@ -118,9 +119,16 @@ h2 {
 .slide {
     min-width: 100%;
     height: 100%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    place-content: center;
+    img {
+        display: block;
+        width: auto;
+        height: 90%;
+        margin: auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 /* Botones de navegación */
 .nav-btn {
@@ -298,6 +306,16 @@ footer {
 }
 
 @media (width < 769px) {
+    .slider-container {
+        max-width: 100%;
+
+        img {
+            width: 100%;
+            height: fit-content;
+            max-height: 100%;
+        }
+    }
+
     .info-content {
         margin: 40px 0;
         padding: 20px;
@@ -306,6 +324,7 @@ footer {
           hyphenate-limit-chars: 7;
           hyphens: auto;
     }
+
     .info {
         width: 100%;
     }
