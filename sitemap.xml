@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://venta-terreno.lovingmypets.pro/</loc>
+    <image:image>
+      <image:loc>https://venta-terreno.lovingmypets.pro/public/img/se-vende-terreno.avif</image:loc>
+      <image:title>Venta de Terreno en Panamá - Puerto Armuelles, Provincia de Chiriquí</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venta-terreno.lovingmypets.pro/public/img/puerto_armuelles_11174_metros.avif</image:loc>
+      <image:title>Terreno con area de 11174 m²</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venta-terreno.lovingmypets.pro/public/img/lote_11174_metros.avif</image:loc>
+      <image:title>Galera para cría de cerdos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venta-terreno.lovingmypets.pro/public/img/casa_puerto_armuelles.avif</image:loc>
+      <image:title>Invierte en Panamá</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venta-terreno.lovingmypets.pro/public/img/chiriqui_panama.avif</image:loc>
+      <image:title>Venta de Terreno en el Palmar, Puerto Armuelles</image:title>
+    </image:image>
+  </url>
+</urlset>
