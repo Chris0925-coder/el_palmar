@@ -75,11 +75,7 @@ main {
     width: 100%;
 }
 
-h1 {
-    font-size: clamp(32px, 4vw, 42px);
-}
-
-h2, h3 {
+h1, h2, h3 {
     text-align: center;
 }
 
@@ -192,6 +188,9 @@ h2, h3 {
     h2 {
         margin-bottom: 20px;
     }
+    li {
+        margin-bottom: .5em;
+    }
     p {
         margin-block: 1lh;
         line-height: 1.4;
@@ -209,10 +208,6 @@ h2, h3 {
     margin-block: 1lh;
     text-wrap: wrap;
     padding: 0 30px;
-    h3 {
-        display: inline-block;
-        font-weight: 900;
-    }
 
     a {
         color: initial;
@@ -266,15 +261,18 @@ footer {
 
     div {
         /*display: flex;*/
-        margin: 10px 0;
+        margin: 10px auto;
             /*align-items: center;*/
         /*border: 1px yellow;*/
 
         a {
-            display: flex;
+            display: block;
             color: inherit;
             align-items: center;
-            gap: .3em;
+
+            /*gap: .5em;*/
+            text-align: center;
+            margin: 10px auto;
             transition: color .3s ease-in-out;
             &:hover {
                 color: #2b2b2b;
