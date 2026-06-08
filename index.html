@@ -11,10 +11,13 @@
 	{
 	  "@context": "https://schema.org",
 	  "@type": "RealEstateListing",
-	  "name": "Venta de Terreno en Panamá | Puerto Armuelles, Provincia de Chiriquí",
-	  "description": "Venta de terreno en Chiriquí con area de 11,174m². Terreno agrícola que ofrece un potencial para quienes buscan desarrollar proyectos de cultivo o ganadería.",
+	  "name": "Venta de terreno con galera y casa en El Palmar, Puerto Armuelles",
+	  "description": "Terreno de 11,174 m² en la comunidad de El Palmar, Puerto Armuelles, Chiriquí, Panamá. Incluye galera y casa construida. Ideal para proyectos residenciales, agropecuarios o turísticos. Zona en crecimiento con acceso a servicios y playas cercanas.",
+	  "datePosted": "2024-01-01",
 	  "image": [
-	    "https://venta-terreno.lovingmypets.pro/favicons/se-vende-terreno.jpg"
+	    "https://venta-terreno.lovingmypets.pro/favicons/se-vende-terreno.jpg",
+	    "https://venta-terreno.lovingmypets.pro/public/img/lote_11174_metros.avif",
+    	"https://venta-terreno.lovingmypets.pro/public/img/casa_puerto_armuelles.avif"
 	  ],
 	  "mainEntity": {
 	    "@type": "Landform",
@@ -30,11 +33,13 @@
 	        "@type": "House",
 	        "name": "Casa familiar",
 	        "numberOfRooms": 3,
+	        "numberOfBathroomsTotal": 2,
 	        "floorSize": {
-	          "@type": "QuantitativeValue",
+          "@type": "QuantitativeValue",
 	          "value": 11174,
-	          "unitCode": "MTR"
-	        },
+	          "unitCode": "MTR",
+	          "unitText": "m²"
+		    },
 	        "amenityFeature": [
 	          {
 	            "@type": "LocationFeatureSpecification",
@@ -56,20 +61,23 @@
 	    ],
 	    "address": {
 	      "@type": "PostalAddress",
-	      "streetAddress": "El Palmar, Puerto Armuelles",
-	      "addressLocality": "Provincia de Chiriquí",
-	      "addressRegion": "Panamá",
+	      "streetAddress": "El Palmar",
+	      "addressLocality": "Puerto Armuelles",
+	      "addressRegion": "Chiriquí",
 	      "postalCode": "00000",
 	      "addressCountry": "PA"
 	    }
 	  },
-
 	  "offers": {
 	    "@type": "Offer",
 	    "price": "80000.00",
 	    "priceCurrency": "USD",
 	    "availability": "https://schema.org/InStock",
-	    "url": "https://venta-terreno.lovingmypets.pro"
+	    "priceSpecification": {
+	      "@type": "PriceSpecification",
+	      "priceCurrency": "USD",
+	      "valueAddedTaxIncluded": false
+	    }
 	  }
 	}
 	</script>
