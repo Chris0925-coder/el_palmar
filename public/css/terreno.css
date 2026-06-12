@@ -179,6 +179,9 @@ h1, h2, h3 {
 }
 
 .info-content {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
     /*display: flex;*/
     /*flex-direction: column;*/
     /*margin: 20px 40px;*/
@@ -199,15 +202,40 @@ h1, h2, h3 {
     }
 }
 
+.content-a {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    /*display: block;*/
+    position: relative;
+    padding-left: 60px;
+    margin: 0 auto;
+    /*flex-wrap: wrap;*/
+}
+
+.content-b {
+    /*display: block;*/
+    /*width: 600px;*/
+    margin: 0 auto;
+}
+
 .info {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    position: relative;
     font-size: 1.2rem;
     line-height: 1.4;
-    width: auto;
-    margin: 0 auto;
-    width: 50ch;
+    /*width: auto;*/
+    /*margin: 0 auto;*/
+    max-width: 50ch;
     margin-block: 1lh;
     text-wrap: wrap;
-    padding: 0 30px;
+    /*place-content: center;*/
+    /*margin: auto;*/
+    margin: auto;
+    /*align-self: center;*/
+    /*height: 100%;*/
+    /*padding: 0 30px;*/
 
     a {
         color: initial;
@@ -316,12 +344,16 @@ footer {
     }
 
     .info-content {
-        margin: 40px 0;
+        margin: 0 auto;
         padding: 20px;
         text-align: justify;
           /*text-wrap: balance;*/
           hyphenate-limit-chars: 7;
           hyphens: auto;
+    }
+
+    .content-a {
+        padding-left: 10px;
     }
 
     .info {
@@ -330,6 +362,9 @@ footer {
 
     .texto {
         flex-direction: column;
+        img {
+            width: 100%;
+        }
     }
 
     footer {
