@@ -1,0 +1,13 @@
+<svg width="320" height="72" viewBox="0 0 320 72" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Venta de Terreno — versión fondo oscuro</title>
+  <rect width="320" height="72" rx="10" fill="#1A2E1A"/>
+  <g transform="translate(12,10)">
+    <polygon points="26,0 52,20 52,46 0,46 0,20" fill="#6B8F3E"/>
+    <polygon points="26,0 52,20 26,20" fill="#C8A84B" opacity="0.6"/>
+    <rect x="10" y="30" width="32" height="16" rx="2" fill="#8B5E3C"/>
+    <rect x="10" y="21" width="12" height="9" rx="1" fill="#C8A84B"/>
+    <line x1="0" y1="46" x2="52" y2="46" stroke="#C8A84B" stroke-width="2.5"/>
+  </g>
+  <text x="80" y="32" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#F4F0E8">Venta de Terreno</text>
+  <text x="80" y="52" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#C8A84B" letter-spacing="1.5">PANAMÁ · CHIRIQUÍ</text>
+</svg>

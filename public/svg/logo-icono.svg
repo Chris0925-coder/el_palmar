@@ -1,0 +1,12 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Ícono Venta de Terreno</title>
+  <desc>Ícono cuadrado del logo de venta-terreno.lovingmypets.pro</desc>
+  <rect width="200" height="200" rx="32" fill="#F4F0E8"/>
+  <g transform="translate(28,28)">
+    <polygon points="72,0 144,55 144,132 0,132 0,55" fill="#2D5016"/>
+    <polygon points="72,0 144,55 72,55" fill="#6B8F3E" opacity="0.5"/>
+    <rect x="22" y="84" width="100" height="48" rx="4" fill="#8B5E3C"/>
+    <rect x="22" y="58" width="36" height="26" rx="3" fill="#C8A84B"/>
+    <line x1="0" y1="132" x2="144" y2="132" stroke="#C8A84B" stroke-width="7"/>
+  </g>
+</svg>

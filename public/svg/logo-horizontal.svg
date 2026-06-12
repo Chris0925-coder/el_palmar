@@ -1,0 +1,13 @@
+<svg width="320" height="72" viewBox="0 0 320 72" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Venta de Terreno — Panamá · Chiriquí</title>
+  <desc>Logo horizontal para venta-terreno.lovingmypets.pro</desc>
+  <g transform="translate(4,4)">
+    <polygon points="28,0 56,22 56,52 0,52 0,22" fill="#2D5016"/>
+    <polygon points="28,0 56,22 28,22" fill="#6B8F3E" opacity="0.5"/>
+    <rect x="11" y="33" width="34" height="19" rx="2" fill="#8B5E3C"/>
+    <rect x="11" y="23" width="13" height="10" rx="1" fill="#C8A84B"/>
+    <line x1="0" y1="52" x2="56" y2="52" stroke="#C8A84B" stroke-width="3"/>
+  </g>
+  <text x="76" y="33" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#2D5016">Venta de Terreno</text>
+  <text x="76" y="54" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#6B8F3E" letter-spacing="1.5">PANAMÁ · CHIRIQUÍ</text>
+</svg>

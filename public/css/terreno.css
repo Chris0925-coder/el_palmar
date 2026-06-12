@@ -13,8 +13,12 @@ body {
 }*/
 
 :root {
-    --brand-color: #651c1d;
-    --brand-second-color: #0075be;
+    --brand-color: #2D5016;
+    --brand-second-color: #6B8F3E;
+    --bg: #C8A84B;
+    --bg-second-color: #8B5E3C;
+    --cream:#F4F0E8;
+    --green-dark:#1A2E1A;
     --white: #fefefe;
     --gray: #6c757d;
     --light-grey: #eaeaea;
@@ -67,6 +71,18 @@ main {
     flex-grow: 2;
     justify-content: center;
 } 
+
+.logo-container {
+    max-width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 10px 40px;
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
 
 .title {
     position: relative;
