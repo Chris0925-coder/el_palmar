@@ -10,7 +10,7 @@
 	<script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",
-	  "@type": "Product",
+	  "@type": "Place",
 	  "name": "Venta de terreno con galera y casa en El Palmar, Puerto Armuelles",
 	  "description": "Terreno de 11,174 m² en la comunidad de El Palmar, Puerto Armuelles, Chiriquí, Panamá. Zona en crecimiento con acceso a playas cercanas. Haz realidad proyecto.",
 	  "image": [
@@ -18,56 +18,12 @@
 	    "https://venta-terreno.lovingmypets.pro/public/img/lote_11174_metros.avif",
     	"https://venta-terreno.lovingmypets.pro/public/img/casa_puerto_armuelles.avif"
 	  ],
-
-	    "containedInPlace": [
-	      {
-	        "@type": "House",
-	        "name": "Casa familiar",
-	        "numberOfRooms": 3,
-	        "numberOfBathroomsTotal": 2,
-	        "geo": {
+	  	"geo": {
 	        "@type": "GeoCoordinates",
 	        "latitude": 8.317983,
 	        "longitude": -82.842382
 	      },
-	        "floorSize": {
-		      "@type": "QuantitativeValue",
-		          "value": 11174,
-		          "unitCode": "MTR",
-		         "unitText": "m²"
-			},
-	        "amenityFeature": [
-	          {
-	            "@type": "LocationFeatureSpecification",
-	            "name": "Baños",
-	            "value": true
-	          },
-	          {
-	            "@type": "LocationFeatureSpecification",
-	            "name": "Cocina",
-	            "value": true
-	          }
-
-	        ]
-	      },
-	      {
-	        "@type": "Place",
-	        "name": "Galera para cría de cerdos",
-	        "description": "Estructura agropecuaria destinada a la cría de cerdos, con espacio techado y ventilación adecuada y electricidad."
-	      }
-	    ],
-
-	  "offers": {
-	    "@type": "Offer",
-	    "price": "90000.00",
-	    "priceCurrency": "USD",
-	    "availability": "https://schema.org/InStock",
-	    "priceSpecification": {
-	      "@type": "PriceSpecification",
-	      "priceCurrency": "USD",
-	      "valueAddedTaxIncluded": false
-	    },
-	   	"address": {
+	    "address": {
 	      "@type": "PostalAddress",
 	      "streetAddress": "El Palmar",
 	      "addressLocality": "Puerto Armuelles",
@@ -75,14 +31,54 @@
 	      "postalCode": "00000",
 	      "addressCountry": "PA"
 	    },
+	   "offers": {
+	    "@type": "Offer",
+	    "price": "90000.00",
+	    "priceCurrency": "USD",
+	    "availability": "https://schema.org/InStock",
+	    "priceSpecification": {
+	      "@type": "PriceSpecification",
+	      "price": "90000.00",
+	      "priceCurrency": "USD",
+	      "valueAddedTaxIncluded": false
+	    },
 	    "seller": {
-		    "@type": "RealEstateAgent",
+		    "@type": "Organization",
 		    "name": "Inversiones Bryan, S.A.",
 		    "url": "https://inversionesbryan-s-a.pages.dev/",
-		    "telephone": "+507 6292-6292"
+		    "image": "https://inversionesbryan-s-a.pages.dev/favicons/logo1.png",
+		    "telephone": "+50762926292",
+		    "priceRange": "90000.00",
+		    "address": {
+		      "@type": "PostalAddress",
+		      "streetAddress": "Panamá",
+		      "addressLocality": "Ciudad de Panamá",
+		      "addressRegion": "Panamá",
+		      "postalCode": "00000",
+		      "addressCountry": "PA"
+		    }
 		}
-	  }
-	}
+	  },
+	    "additionalProperty": [
+	      {
+		      "@type": "PropertyValue",
+		      "name": "Área total del terreno",
+		      "value": "11174 m²",
+		      "unitCode": "MTK"
+		    },
+		    {
+		      "@type": "PropertyValue",
+		      "name": "Casa construida",
+		      "value": "3 recámaras, 2 baños"
+		    },
+		    {
+		      "@type": "PropertyValue",
+		      "name": "Galera agropecuaria",
+		      "value": "Estructura para cría de cerdos con techo, ventilación y electricidad"
+		    }
+
+	        ]
+	    }
 	</script>
 
 	<link rel="stylesheet" type="text/css" href="public/css/terreno.css">
