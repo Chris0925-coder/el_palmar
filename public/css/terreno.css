@@ -1,17 +1,3 @@
-/** {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-body {
-    font-family: Arial, sans-serif;
-    background: #fafafa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}*/
-
 :root {
     --brand-color: #2D5016;
     --brand-second-color: #6B8F3E;
