@@ -3,25 +3,44 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://venta-terreno.lovingmypets.pro/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+
     <image:image>
       <image:loc>https://venta-terreno.lovingmypets.pro/public/img/se-vende-terreno.avif</image:loc>
-      <image:title>Venta de Terreno en Panamá - Puerto Armuelles, Provincia de Chiriquí</image:title>
+      <image:title>Venta de Terreno en Panamá — Puerto Armuelles, Provincia de Chiriquí</image:title>
+      <image:caption>Terreno en venta de 11,174 m² ubicado en El Palmar, Puerto Armuelles, Chiriquí, Panamá.</image:caption>
+      <image:geo_location>Puerto Armuelles, Chiriquí, Panamá</image:geo_location>
     </image:image>
+
     <image:image>
       <image:loc>https://venta-terreno.lovingmypets.pro/public/img/puerto_armuelles_11174_metros.avif</image:loc>
-      <image:title>Terreno con area de 11174 m²</image:title>
+      <image:title>Vista aérea del terreno de 11,174 m² en Puerto Armuelles</image:title>
+      <image:caption>Extensión total del lote de 11,174 metros cuadrados disponible para inversión en Puerto Armuelles.</image:caption>
+      <image:geo_location>Puerto Armuelles, Chiriquí, Panamá</image:geo_location>
     </image:image>
+
     <image:image>
       <image:loc>https://venta-terreno.lovingmypets.pro/public/img/lote_11174_metros.avif</image:loc>
-      <image:title>Galera para cría de cerdos</image:title>
+      <image:title>Galera para cría de cerdos incluida en el terreno — Puerto Armuelles</image:title>
+      <image:caption>Infraestructura existente en el lote: galera para cría de cerdos, apta para uso agropecuario.</image:caption>
+      <image:geo_location>Puerto Armuelles, Chiriquí, Panamá</image:geo_location>
     </image:image>
+
     <image:image>
       <image:loc>https://venta-terreno.lovingmypets.pro/public/img/casa_puerto_armuelles.avif</image:loc>
-      <image:title>Invierte en Panamá</image:title>
+      <image:title>Casa en el terreno en venta — Puerto Armuelles, Chiriquí</image:title>
+      <image:caption>Vivienda existente dentro del terreno de 11,174 m² en venta en Puerto Armuelles, Panamá.</image:caption>
+      <image:geo_location>Puerto Armuelles, Chiriquí, Panamá</image:geo_location>
     </image:image>
+
     <image:image>
       <image:loc>https://venta-terreno.lovingmypets.pro/public/img/chiriqui_panama.avif</image:loc>
-      <image:title>Venta de Terreno en el Palmar, Puerto Armuelles</image:title>
+      <image:title>Terreno en venta en El Palmar, Puerto Armuelles, Chiriquí</image:title>
+      <image:caption>Ubicación del terreno en la provincia de Chiriquí, Panamá, zona de alto potencial agropecuario y turístico.</image:caption>
+      <image:geo_location>Puerto Armuelles, Chiriquí, Panamá</image:geo_location>
     </image:image>
+
   </url>
 </urlset>
