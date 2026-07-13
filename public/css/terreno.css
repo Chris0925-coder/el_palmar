@@ -5,7 +5,7 @@
     --bg-second-color: #8B5E3C;
     --cream:#F4F0E8;
     --green-dark:#1A2E1A;
-    --white: #fefefe;
+    --white: #fafafa;
     --gray: #6c757d;
     --light-grey: #eaeaea;
     --light: #f8f9fa;
@@ -258,12 +258,14 @@ h1, h2, h3 {
     justify-content: center;
     padding: 20px 10px;
     margin: 20px auto;
+    align-items: center;
     gap: 1em;
     img {
         display: block;
         margin: 0 auto;
+        object-fit: cover;
         width:400px; 
-        height:200px
+        height:250px
     }
     p {
         max-width: 75ch;
