@@ -25,6 +25,7 @@
               { "@id": "https://venta-terreno.lovingmypets.pro/#img2" },
               { "@id": "https://venta-terreno.lovingmypets.pro/#img3" }
             ],
+            "isRelatedTo": { "@id": "https://venta-terreno.lovingmypets.pro/#land" },
             "offers": {
               "@type": "Offer",
               "@id": "https://venta-terreno.lovingmypets.pro/#offer",
@@ -37,10 +38,15 @@
                 "priceCurrency": "USD",
                 "valueAddedTaxIncluded": false
               },
-              "mainEntity": { "@id": "https://venta-terreno.lovingmypets.pro/#land" },
               "seller": {
                 "@id": "https://venta-terreno.lovingmypets.pro/#seller"
               }
+            },
+            "brand": { "@type": "Brand", "name": "LovingMyPets" },
+            "identifier": {
+              "@type": "PropertyValue",
+              "name": "ID de propiedad",
+              "value": "TERRENO-ELPALMAR-2025-001"
             }
           },
           {
@@ -48,7 +54,6 @@
             "@id": "https://venta-terreno.lovingmypets.pro/#land",
             "name": "Terreno con galera y casa en El Palmar, Puerto Armuelles",
             "description": "Terreno de 11,174m² con casa de 4 recámaras, 2 baños y galera agropecuaria con techo, ventilación y electricidad. Ubicado en El Palmar, Puerto Armuelles, Chiriquí.",
-            "isRelatedTo": { "@id": "https://venta-terreno.lovingmypets.pro/#listing" },
             "image": [
               { "@id": "https://venta-terreno.lovingmypets.pro/#img1" },
               { "@id": "https://venta-terreno.lovingmypets.pro/#img2" },
@@ -191,9 +196,10 @@
             "primaryImageOfPage": {
               "@id": "https://venta-terreno.lovingmypets.pro/#img1"
             },
-            "about": {
-              "@id": "https://venta-terreno.lovingmypets.pro/#listing"
-            },
+            "about": [
+              { "@id": "https://venta-terreno.lovingmypets.pro/#listing" },
+              { "@id": "https://venta-terreno.lovingmypets.pro/#land" }
+            ],
             "inLanguage": "es"
           }
 
