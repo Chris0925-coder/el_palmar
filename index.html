@@ -37,6 +37,7 @@
                 "priceCurrency": "USD",
                 "valueAddedTaxIncluded": false
               },
+              "mainEntity": { "@id": "https://venta-terreno.lovingmypets.pro/#land" },
               "seller": {
                 "@id": "https://venta-terreno.lovingmypets.pro/#seller"
               }
@@ -47,6 +48,7 @@
             "@id": "https://venta-terreno.lovingmypets.pro/#land",
             "name": "Terreno con galera y casa en El Palmar, Puerto Armuelles",
             "description": "Terreno de 11,174m² con casa de 4 recámaras, 2 baños y galera agropecuaria con techo, ventilación y electricidad. Ubicado en El Palmar, Puerto Armuelles, Chiriquí.",
+            "isRelatedTo": { "@id": "https://venta-terreno.lovingmypets.pro/#listing" },
             "image": [
               { "@id": "https://venta-terreno.lovingmypets.pro/#img1" },
               { "@id": "https://venta-terreno.lovingmypets.pro/#img2" },
@@ -91,7 +93,7 @@
             "image": "https://www.lovingmypets.pro/favicons/logo.png",
             "url": "https://www.lovingmypets.pro/",
             "logo": "https://www.lovingmypets.pro/favicons/logo.png",
-            "telephone": "+507-62926292",
+            "telephone": "+507-6292-6292",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Panamá",
@@ -135,7 +137,7 @@
             "@id": "https://venta-terreno.lovingmypets.pro/#img3",
             "url": "https://venta-terreno.lovingmypets.pro/public/tereno_el_palmar/terreno-con-11174-metros-cuadrados.jpg",
             "contentUrl": "https://venta-terreno.lovingmypets.pro/public/tereno_el_palmar/terreno-con-11174-metros-cuadrados.jpg",
-            "caption": "Casa en venta en Puerto Armuelles, Chiriquí, Panamá",
+            "caption": "Terreno de 11,174 m² en El Palmar, Puerto Armuelles, Chiriquí",
             "width": 1200,
             "height": 600,
             "license": "https://venta-terreno.lovingmypets.pro/",
@@ -148,7 +150,7 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://venta-terreno.lovingmypets.pro/#img3",
+            "@id": "https://venta-terreno.lovingmypets.pro/#img4",
             "url": "https://venta-terreno.lovingmypets.pro/public/tereno_el_palmar/galera-para-cria-de-cerdos.jpg",
             "contentUrl": "https://venta-terreno.lovingmypets.pro/public/tereno_el_palmar/galera-para-cria-de-cerdos.jpg",
             "caption": "Terreno con galera para cría de cerdos en Puerto Armuelles, Chiriquí, Panamá",
@@ -167,13 +169,22 @@
             "@id": "https://venta-terreno.lovingmypets.pro/#website",
             "url": "https://venta-terreno.lovingmypets.pro/",
             "name": "Venta de Terreno en Puerto Armuelles",
-            "inLanguage": "es"
+            "inLanguage": "es",
+            "publisher": { "@id": "https://venta-terreno.lovingmypets.pro/#seller" }
           },
           {
             "@type": "WebPage",
             "@id": "https://venta-terreno.lovingmypets.pro/#webpage",
             "url": "https://venta-terreno.lovingmypets.pro/",
             "name": "Venta de terreno con galera y casa en El Palmar, Puerto Armuelles",
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://venta-terreno.lovingmypets.pro/" }
+              ]
+            },
+            "datePublished": "2025-01-01",
+            "dateModified": "2026-07-22",
             "isPartOf": {
               "@id": "https://venta-terreno.lovingmypets.pro/#website"
             },
