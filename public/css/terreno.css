@@ -40,7 +40,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", system-ui, sans-serif;
-    line-height: 1.7;
+    line-height: 1.6;
     /*place-content: center;*/
     height: auto;
     min-height: 100vh;
@@ -63,6 +63,69 @@ section {
     margin: 20px auto;
 }
 
+nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(253,250,246,0.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--divider);
+      padding: 0 clamp(1.5rem, 5vw, 4rem);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 62px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+    }
+
+    .nav-logo img {
+      height: 32px;
+      width: auto;
+    }
+
+    .nav-tagline {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 0.2rem;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav-links a {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 0.45rem 0.875rem;
+      border-radius: 50px;
+      transition: color 0.2s, background 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--earth); background: var(--earth-lt); }
+
+    #nav-cta {
+      background: var(--green);
+      color: var(--bg);
+    }
+
+    #nav-cta:hover { background: #2354405a; color:white; }
+
+
 .logo-container {
     max-width: 1200px;
     height: 80px;
@@ -77,8 +140,11 @@ section {
 
 .title {
     position: relative;
-    text-align: center;
-    margin: 50px auto 20px auto;
+    text-align: left;
+    margin: 20px auto;
+    width: 100%;
+    font-size: clamp(2.4rem, 4.5vw, 4rem);
+    max-width: 80vw;
     width: 100%;
 }
 
