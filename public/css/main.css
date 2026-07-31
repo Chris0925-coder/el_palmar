@@ -120,7 +120,9 @@
       left: -80px;
       width: 320px;
       height: 320px;
-      background: rgba(201,150,58,0.08);
+      /*background: rgba(201,150,58,0.08);
+      background: rgba(22,15,58,0.08);*/
+      background: #2d6a4f2e;
       border-radius: 50%;
     }
 
@@ -186,7 +188,7 @@
 
     .hero-price-note {
       font-size: 0.75rem;
-      color: rgba(255,255,255,0.5);
+      color: rgba(10,10,10,0.5);
       font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -367,7 +369,7 @@
     }
 
     .section-photo {
-      font-size: .7rem;
+      font-size: 0.7rem;
       color: var(--muted);
       max-width: 60ch;
       line-height: 1.75;
