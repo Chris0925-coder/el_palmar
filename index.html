@@ -20,6 +20,11 @@
         "@type": "Product",
         "@id": "https://venta-terreno.lovingmypets.pro/#listing",
         "name": "Venta de terreno con galera y casa en El Palmar, Puerto Armuelles",
+        "image": [
+        "https://venta-terreno.lovingmypets.pro/terreno_el_palmar/terreno-con-11174-metros-cuadrados.jpg",
+        "https://venta-terreno.lovingmypets.pro/terreno_el_palmar/panama-chiriqui.jpg",
+        "https://venta-terreno.lovingmypets.pro/terreno_el_palmar/el-palmar-puertoarmuelles.jpg"
+       ],
         "description": "Terreno de 11,174 m² en la comunidad de El Palmar, Puerto Armuelles, Chiriquí, Panamá. Incluye casa de 4 recámaras, 2 baños y galera agropecuaria.",
         "brand": { "@type": "Brand", "name": "LovingMyPets" },
         "identifier": { "@type": "PropertyValue", "name": "ID de propiedad", "value": "TERRENO-ELPALMAR-2025-001" },
@@ -36,7 +41,41 @@
             "priceCurrency": "USD",
             "valueAddedTaxIncluded": false
           },
-          "seller": { "@id": "https://venta-terreno.lovingmypets.pro/#seller" }
+          "seller": { "@id": "https://venta-terreno.lovingmypets.pro/#seller" },
+
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "PA",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+            "merchantReturnDays": 0
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "PA"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
         }
       },
       {
