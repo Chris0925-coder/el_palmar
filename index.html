@@ -11,7 +11,7 @@
 
 
 
-  <!-- JSON-LD -->
+  <!-- JSON-LD "geo": { "@type": "GeoCoordinates", "latitude": 8.317983, "longitude": -82.842382 },-->
   <script type="application/ld+json" data-cfasync="false">
   {
     "@context": "https://schema.org",
@@ -26,9 +26,15 @@
         "https://venta-terreno.lovingmypets.pro/terreno_el_palmar/el-palmar-puertoarmuelles.jpg"
        ],
         "description": "Terreno de 11,174 m² en la comunidad de El Palmar, Puerto Armuelles, Chiriquí, Panamá. Incluye casa de 4 recámaras, 2 baños y galera agropecuaria.",
-        "brand": { "@type": "Brand", "name": "LovingMyPets" },
+        "geo": { "@type": "GeoCoordinates",  "latitude": 8.317983, "longitude": -82.842382 },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "El Palmar",
+          "addressLocality": "Puerto Armuelles",
+          "addressRegion": "Chiriquí",
+          "addressCountry": "PA"
+        },
         "identifier": { "@type": "PropertyValue", "name": "ID de propiedad", "value": "TERRENO-ELPALMAR-2025-001" },
-        
         "offers": {
           "@type": "Offer",
           "@id": "https://venta-terreno.lovingmypets.pro/#offer",
@@ -41,56 +47,15 @@
             "priceCurrency": "USD",
             "valueAddedTaxIncluded": false
           },
-          "seller": { "@id": "https://venta-terreno.lovingmypets.pro/#seller" },
-
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "PA",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
-            "merchantReturnDays": 0
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "USD"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "PA"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "seller": { "@id": "https://venta-terreno.lovingmypets.pro/#seller" }
         }
       },
       {
-        "@type": "Landform",
+        "@type": "RealEstateListing",
         "@id": "https://venta-terreno.lovingmypets.pro/#land",
         "name": "Terreno con galera y casa en El Palmar, Puerto Armuelles",
         "description": "Terreno de 11,174 m² con casa de 4 recámaras, 2 baños y galera agropecuaria con techo, ventilación y electricidad.",
-        "geo": { "@type": "GeoCoordinates", "latitude": 8.317983, "longitude": -82.842382 },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "El Palmar",
-          "addressLocality": "Puerto Armuelles",
-          "addressRegion": "Chiriquí",
-          "addressCountry": "PA"
-        },
+        "mainEntity": { "@id": "https://venta-terreno.lovingmypets.pro/#listing" },
         "additionalProperty": [
           { "@type": "PropertyValue", "name": "Área total", "value": 11174, "unitCode": "MTK", "unitText": "m²" },
           { "@type": "PropertyValue", "name": "Casa construida", "value": "4 recámaras, 2 baños" },
@@ -119,7 +84,7 @@
         "url": "https://venta-terreno.lovingmypets.pro/",
         "name": "Terreno en venta en Puerto Armuelles, Chiriquí — 11,174 m² con casa y galera",
         "isPartOf": { "@id": "https://venta-terreno.lovingmypets.pro/#website" },
-        "about": { "@id": "https://venta-terreno.lovingmypets.pro/#listing" },
+        "about": { "@id": "https://venta-terreno.lovingmypets.pro/#land" },
         "inLanguage": "es",
         "datePublished": "2025-01-01",
         "dateModified": "2026-07-30",
@@ -136,7 +101,7 @@
         "url": "https://venta-terreno.lovingmypets.pro/pages/gallery.html",
         "name": "Galería | Terreno en venta en Puerto Armuelles, Chiriquí — 11,174 m² con casa y galera",
         "isPartOf": { "@id": "https://venta-terreno.lovingmypets.pro/#website" },
-        "about": { "@id": "https://venta-terreno.lovingmypets.pro/#listing" },
+        "about": { "@id": "https://venta-terreno.lovingmypets.pro/#land" },
         "inLanguage": "es",
         "datePublished": "2025-01-01",
         "dateModified": "2026-07-31",
