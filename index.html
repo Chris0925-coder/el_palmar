@@ -11,7 +11,7 @@
 
 
 
-  <!-- JSON-LD "geo": { "@type": "GeoCoordinates", "latitude": 8.317983, "longitude": -82.842382 },-->
+  <!-- JSON-LD -->
   <script type="application/ld+json" data-cfasync="false">
   {
     "@context": "https://schema.org",
@@ -26,14 +26,6 @@
         "https://venta-terreno.lovingmypets.pro/terreno_el_palmar/el-palmar-puertoarmuelles.jpg"
        ],
         "description": "Terreno de 11,174 m² en la comunidad de El Palmar, Puerto Armuelles, Chiriquí, Panamá. Incluye casa de 4 recámaras, 2 baños y galera agropecuaria.",
-        "geo": { "@type": "GeoCoordinates",  "latitude": 8.317983, "longitude": -82.842382 },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "El Palmar",
-          "addressLocality": "Puerto Armuelles",
-          "addressRegion": "Chiriquí",
-          "addressCountry": "PA"
-        },
         "identifier": { "@type": "PropertyValue", "name": "ID de propiedad", "value": "TERRENO-ELPALMAR-2025-001" },
         "offers": {
           "@type": "Offer",
@@ -55,6 +47,14 @@
         "@id": "https://venta-terreno.lovingmypets.pro/#land",
         "name": "Terreno con galera y casa en El Palmar, Puerto Armuelles",
         "description": "Terreno de 11,174 m² con casa de 4 recámaras, 2 baños y galera agropecuaria con techo, ventilación y electricidad.",
+        "geo": { "@type": "GeoCoordinates",  "latitude": 8.317983, "longitude": -82.842382 },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "El Palmar",
+          "addressLocality": "Puerto Armuelles",
+          "addressRegion": "Chiriquí",
+          "addressCountry": "PA"
+        },
         "mainEntity": { "@id": "https://venta-terreno.lovingmypets.pro/#listing" },
         "additionalProperty": [
           { "@type": "PropertyValue", "name": "Área total", "value": 11174, "unitCode": "MTK", "unitText": "m²" },
@@ -63,12 +63,11 @@
         ]
       },
       {
-        "@type": "Organization",
-        "@id": "https://venta-terreno.lovingmypets.pro/#seller",
-        "name": "LovingMyPets",
-        "url": "https://www.lovingmypets.pro/",
-        "logo": "https://www.lovingmypets.pro/favicons/logo.png",
-        "telephone": "+507-6292-6292"
+          "@type": "Person",
+          "@id": "https://venta-terreno.lovingmypets.pro/#seller",
+          "name": "Cinthya L. P.",
+          "telephone": "+507-6997-1605",
+          "url": "https://www.lovingmypets.pro/contacto.html"
       },
       {
         "@type": "WebSite",
