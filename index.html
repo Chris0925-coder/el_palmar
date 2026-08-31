@@ -47,20 +47,25 @@
         "@id": "https://venta-terreno.lovingmypets.pro/#land",
         "name": "Terreno con galera y casa en El Palmar, Puerto Armuelles",
         "description": "Terreno de 11,174 m² con casa de 4 recámaras, 2 baños y galera agropecuaria con techo, ventilación y electricidad.",
-        "geo": { "@type": "GeoCoordinates",  "latitude": 8.317983, "longitude": -82.842382 },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "El Palmar",
-          "addressLocality": "Puerto Armuelles",
-          "addressRegion": "Chiriquí",
-          "addressCountry": "PA"
-        },
+        "about": { "@id": "https://venta-terreno.lovingmypets.pro/#property" },  
         "mainEntity": { "@id": "https://venta-terreno.lovingmypets.pro/#listing" },
         "additionalProperty": [
           { "@type": "PropertyValue", "name": "Área total", "value": 11174, "unitCode": "MTK", "unitText": "m²" },
           { "@type": "PropertyValue", "name": "Casa construida", "value": "4 recámaras, 2 baños" },
           { "@type": "PropertyValue", "name": "Galera agropecuaria", "value": "Estructura para cría de cerdos con techo, ventilación y electricidad" }
         ]
+      },
+      {
+          "@type": "Place",
+          "@id": "https://venta-terreno.lovingmypets.pro/#property",
+          "geo": { "@type": "GeoCoordinates", "latitude": 8.317983, "longitude": -82.842382 },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "El Palmar",
+            "addressLocality": "Puerto Armuelles",
+            "addressRegion": "Chiriquí",
+            "addressCountry": "PA"
+          }
       },
       {
           "@type": "Person",
